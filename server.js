@@ -16,7 +16,7 @@ app.use(
 const userRoutes = require("./route/users");
 const showsRoutes = require("./route/shows");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Function to connect and establish MongoDB Connection
 async function connectDB() {
