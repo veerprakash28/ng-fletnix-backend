@@ -2,6 +2,13 @@
 
 Backend Repository of Fletnix Webapp Made using MongoDB and Node.js. This server handles authentication, and listing of tv shows and movies along with pagination, filter and search functionality.
 
+## Links
+
+Before you jump on to coding, Here is the live link for the App. Do give a star to the repo if you like :)
+
+- [Live Link](https://ng-fletnix.netlify.app/home) (Fletnix - What to watch)
+- [Frontend Repo](https://github.com/veerprakash28/ng-fletnix-frontend) (Repository of Frontend made using Angular 17)
+
 ## Prerequisites
 
 Before you start, ensure you have the following installed:
@@ -91,9 +98,9 @@ Start the server by running:
 - **List Shows:** `POST shows/fetchShows` - List all shows with optional pagination, filtering, and search
 
   - **Request Body:**
-    - `page` (number)
-    - `search` (string)
-    - `type` (string)
+    - `page` [Default 1] (number)
+    - `search` [Title or Cast] (string)
+    - `type` [TV Show / Movie] (string)
 
 - **Show Details:** `GET /shows/:id` - Get details of a specific show by ID
   - **Query Params:**
