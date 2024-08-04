@@ -4,7 +4,7 @@ Backend Repository of Fletnix Webapp Made using MongoDB and Node.js. This server
 
 ## Links
 
-Before you jump on to coding, Here is the live link for the App. Do give a star to the repo if you like :)
+Before you start, here is the live link for the App. If you like the project, do give a star to the repo!
 
 - [Live Link](https://ng-fletnix.netlify.app/home) (Fletnix - What to watch)
 - [Frontend Repo](https://github.com/veerprakash28/ng-fletnix-frontend) (Repository of Frontend made using Angular 17)
